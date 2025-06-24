@@ -189,6 +189,25 @@ Should return:
 
 ---
 
+
+🧪 Test It
+
+curl http://localhost:3000/status
+
+
+Then check logs:
+
+
+docker logs node-app
+
+You should now see:
+
+
+✅ /status endpoint was called
+
+
+----
+
 ## 🔄 (Optional) Push Image to Docker Hub
 
 ```bash
